@@ -1,0 +1,69 @@
+{
+  "name": "vue-shell",
+  "version": "1.0.0",
+  "description": "An shell for my vue-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config scripts/config.js",
+    "build": "node scripts/build.js",
+    "github": "cross-env TARGET=githubpages npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisimengchen/vue-shell.git"
+  },
+  "keywords": [
+    "vue",
+    "shell"
+  ],
+  "author": "mengchen",
+  "license": "MIT",
+  "browserslist": [
+    "> 0.1%",
+    "last 10 versions",
+    "not ie <= 9"
+  ],
+  "bugs": {
+    "url": "https://github.com/sisimengchen/vue-shell/issues"
+  },
+  "homepage": "https://github.com/sisimengchen/vue-shell#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.1",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-lmfe": "0.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^2.1.5",
+    "redux-devtools": "^3.4.1",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.2.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "vue": "^2.5.16",
+    "vue-content-loader": "^0.2.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}

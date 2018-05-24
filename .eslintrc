@@ -1,0 +1,9 @@
+{
+    "parser": "babel-eslint",
+    "extends": "lmfe",
+    "env": {
+      "browser": true,
+      "es6": true
+    }
+  }
+  
