@@ -3,6 +3,7 @@
     <VHeader title="标题"></VHeader>
     <input class="passinput" v-model="passwords" placeholder="请输入6位密码">
     <UIKeyboard v-model="code"></UIKeyboard>
+    <router-view></router-view>
   </div>
 </template>
 
